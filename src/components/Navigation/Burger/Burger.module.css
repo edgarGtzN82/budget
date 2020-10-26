@@ -1,0 +1,30 @@
+.styledDiv {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    background-color: #16697A;
+    top: 10px;
+    left: -5px;
+    border-radius: 7px;   
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+    z-index: 200;
+}
+
+.divBurger {
+    width: 25px;
+    height: 0.25rem;
+    margin: 2px 8px;
+    background-color: #fff;
+    border-radius: 5px;
+    transform-origin: 1px;
+    transition: all 0.3s linear;
+    z-index: 250;
+}
+
+@media (min-width: 680px) {
+    .styledDiv {
+        display: none;
+    }
+}

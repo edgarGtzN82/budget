@@ -1,0 +1,13 @@
+.buttonAdd {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
+
+input {
+    text-decoration: bold;
+    font-family: 'Lucida Sans';
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: #EDE7E3 solid 2px;
+}
